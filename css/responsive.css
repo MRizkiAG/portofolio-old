@@ -41,4 +41,13 @@
         padding: 5vw;
     }
 
+    .kotak-skill {
+        box-shadow: #292F49 2px 2px 4px;
+
+    }
+
+    .skill {
+        font-size: 2vw;
+    }
+
 }

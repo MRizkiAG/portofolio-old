@@ -584,13 +584,14 @@ header {
     width: 100%;
     background-color: #ddd;
     margin: 1vw 0;
-    box-shadow: #292F49 3px 3px 5px;
+    box-shadow: #292F49 5px 5px 5px;
 }
 
 .skill {
     text-align: right;
     padding: .8vw 1.5vw .8vw 0;
     color: white;
+    font-size: 2vw;
 }
 
 .microsoft-office {
