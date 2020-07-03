@@ -153,13 +153,15 @@ header {
 }
 
 .hobi img {
-    margin: 0 25%;
-    width: 50%;
+    width: 20vw;
+    height: 20vw;
     padding-bottom: 1.5vw;
 }
 
+
 .kotak-hobi {
-    padding: 3vw 0;
+    text-align: center;
+    padding: 3vw 5vw;
     margin: 0 0 3vw 0;
     border: 2px solid white;
     text-shadow: #3CB9EA 0 0 10px;
@@ -171,6 +173,14 @@ header {
     background-color: white;
     color: #292F49;
     text-shadow: none;
+}
+
+.hobi-wrap {
+    margin-bottom: 10px;
+    overflow: auto;
+    overflow-y: hidden;
+    flex-direction: row;
+    display: flex;
 }
 
 .konten-kanan {
@@ -259,11 +269,11 @@ header {
 }
 
 .timelin-main h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .timelin-main p {
-    font-size: .7vw;
+    font-size: .8vw;
 }
 
 .timeline-wrapper {

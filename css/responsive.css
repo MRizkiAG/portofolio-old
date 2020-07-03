@@ -6,7 +6,7 @@
     }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 670px) {
     .kotak-header li {
         margin-left: 1vw;
     }
@@ -25,10 +25,20 @@
     }
 
     .timelin-main h2 {
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     .timelin-main p {
-        font-size: 3vw;
+        font-size: 2vw;
     }
+
+    .timeline-wrapper {
+        margin-top: 5vw;
+    }
+
+    .kotak-hobi {
+        width: 100%;
+        padding: 5vw;
+    }
+
 }
