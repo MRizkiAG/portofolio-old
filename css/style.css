@@ -30,26 +30,25 @@ header {
 
 .kotak-header a {
     color: white;
+    padding: 1vw .8vw;
+    border-radius: 10px;
 }
 
 .kotak-header a:hover {
     color: #2B2C47;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
 }
 
 .kotak-header li {
     display: inline-block;
-    padding: 1vw .8vw;
     margin-left: 20px;
-    border-radius: 10px;
     font-size: 1.5vw;
+    padding: 1vw .8vw;
 }
 
-.kotak-header li:hover {
-    background-color: white;
-    color: #2B2C47;
-    cursor: pointer;
-    transition: .5s;
-}
+.kotak-header li:hover {}
 
 .clear {
     clear: both;
