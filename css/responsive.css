@@ -1,0 +1,34 @@
+@media all and (min-width: 1201px) {
+    .container {
+        max-width: none;
+        min-width: 1201px;
+        padding: 0 5vw;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .kotak-header li {
+        margin-left: 1vw;
+    }
+
+    .biodata td {
+        font-size: 1.5vw;
+        padding: .5vw;
+    }
+
+    .fa-whatsapp,
+    .fa-instagram,
+    .fa-telegram-plane,
+    .fa-line,
+    .fa-envelope {
+        font-size: 1.7vw;
+    }
+
+    .timelin-main h2 {
+        font-size: 5vw;
+    }
+
+    .timelin-main p {
+        font-size: 3vw;
+    }
+}
