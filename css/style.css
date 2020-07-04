@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Comic Neue', cursive;
 }
 
 .container {
@@ -47,8 +48,6 @@ header {
     font-size: 1.5vw;
     padding: 1vw .8vw;
 }
-
-.kotak-header li:hover {}
 
 .clear {
     clear: both;
@@ -96,7 +95,8 @@ header {
 
 .biodata,
 .kontak,
-.hobi {
+.hobi,
+.kepribadian {
     margin: 0 2vw 2vw 2vw;
     color: white;
 }
@@ -204,6 +204,27 @@ header {
 .kotak-konten-kanan hr {
     border: 1px solid #292F49;
 }
+
+.kepribadian {
+    text-align: center;
+}
+
+.kepribadian h3 {
+    display: inline-block;
+    font-size: 1.5vw;
+    padding: .5vw 1vw;
+    margin: 0 .5vw 1vw 0;
+    background-color: #05a6e3;
+    border-radius: 5px;
+}
+
+.kepribadian h3:hover {
+    background-color: white;
+    color: turquoise;
+    cursor: pointer;
+}
+
+/* =======================Konten Kanan =======================*/
 
 .profil p {
     font-size: 1.5vw;
