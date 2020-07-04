@@ -12,17 +12,26 @@
     }
 
     .kotak-header li {
-        margin-left: none;
+        margin-left: 1vw;
         font-size: 2.5vw;
         padding: 1vw 1.4vw;
     }
 
-    .kotak-header li {
-        margin-left: 1vw;
+    .konten-kiri {
+        width: 100%;
+        float: none;
+    }
+
+    .konten-kiri h1 {
+        font-size: 6vw;
+    }
+
+    .biodata table {
+        margin-bottom: 6vw;
     }
 
     .biodata td {
-        font-size: 1.5vw;
+        font-size: 3vw;
         padding: .5vw;
     }
 
@@ -31,15 +40,42 @@
     .fa-telegram-plane,
     .fa-line,
     .fa-envelope {
-        font-size: 1.7vw;
+        font-size: 4vw;
     }
 
-    .timelin-main h2 {
+    .kontak ul {
+        margin-bottom: 6vw;
+    }
+
+    .hobi-wrap {
+        margin-bottom: 6vw;
+    }
+
+    .kepribadian {
+        margin-bottom: 6vw;
+    }
+
+    .kotak-konten-kanan h1 {
+        font-size: 6vw;
+    }
+
+    .konten-kanan {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-top: 7vw;
+    }
+
+    .profil p {
         font-size: 3vw;
     }
 
+    .timelin-main h2 {
+        font-size: 6vw;
+    }
+
     .timelin-main p {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .timeline-wrapper {
@@ -60,12 +96,13 @@
         font-size: 2vw;
     }
 
-    .konten-kiri h1 {
-        font-size: 3.5vw;
+    .kemampuan h3 {
+        font-size: 2.5vw;
     }
 
     .kepribadian h3 {
         padding: 1vw 2vw;
+        font-size: 2.5vw;
     }
 
 }
