@@ -638,3 +638,29 @@ header {
     width: 50%;
     background-color: #9b59b6;
 }
+
+.proyek img {
+    width: 100%;
+    margin-top: 2vw;
+    border: 2px solid #292F49;
+    border-radius: 5px;
+
+}
+
+.proyek a:hover {
+    opacity: 1;
+    color: turquoise;
+    transition: .5s;
+}
+
+.proyek a {
+    opacity: .7;
+    color: #292F49;
+
+}
+
+.proyek h2 {
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 1vw;
+}
