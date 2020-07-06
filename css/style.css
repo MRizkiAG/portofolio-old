@@ -617,26 +617,31 @@ header {
 .microsoft-office {
     width: 90%;
     background-color: #e74c3c;
+    animation: skill-microsoft-office 60s ease-in;
 }
 
 .cisco-mikrotik {
     width: 80%;
     background-color: #f1c40f;
+    animation: skill-cisco-mikrotik 60s ease-in;
 }
 
 .linux {
     width: 80%;
     background-color: #2ecc71;
+    animation: skill-linux 60s ease-in;
 }
 
 .html-css {
     width: 85%;
     background-color: #3498db;
+    animation: skill-html-css 60s ease-in;
 }
 
 .php {
     width: 50%;
     background-color: #9b59b6;
+    animation: skill-php 60s ease-in;
 }
 
 .proyek img {
@@ -663,4 +668,55 @@ header {
     font-size: 2vw;
     text-align: center;
     padding-top: 1vw;
+}
+
+
+@keyframes skill-microsoft-office {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes skill-cisco-mikrotik {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes skill-linux {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes skill-html-css {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes skill-php {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 50%;
+    }
 }
