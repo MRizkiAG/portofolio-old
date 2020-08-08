@@ -644,6 +644,18 @@ header {
     animation: skill-php 60s ease-in;
 }
 
+.proyek-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.proyek-item {
+    width: 100%;
+    margin: 1.5rem;
+}
+
 .proyek img {
     width: 100%;
     margin-top: 2vw;
@@ -665,7 +677,7 @@ header {
 }
 
 .proyek h2 {
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: center;
     padding-top: 1vw;
 }
