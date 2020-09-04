@@ -492,12 +492,13 @@ header {
     width: 50%; } }
 .proyek .proyek-wrap {
   display: flex;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: center;
   width: 100%; }
   .proyek .proyek-wrap .proyek-item {
-    width: 100%;
-    margin: 1.5rem; }
+    width: 42%;
+    margin: 2%; }
     .proyek .proyek-wrap .proyek-item a {
       opacity: .7;
       color: #292F49; }

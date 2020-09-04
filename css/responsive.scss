@@ -1,0 +1,157 @@
+@media all and (min-width: 1201px) {
+    .container {
+        max-width: none;
+        min-width: 1201px;
+        padding: 0 5vw;
+    }
+}
+
+@media all and (max-width: 670px) {
+    header {
+        .kotak-header {
+            a {
+                border-radius: 5px;
+                padding: 2vw 1vw;
+            }
+
+            li {
+                margin-left: 1vw;
+                font-size: 2.5vw;
+                padding: 1vw 1.4vw;
+                margin: 1vw 0;
+            }
+        }
+    }
+
+    .konten {
+        .konten-kiri {
+            width: 100%;
+            float: none;
+
+            h1 {
+                font-size: 6vw;
+            }
+
+            .kotak-konten-kiri {
+                .biodata {
+                    table {
+                        margin-bottom: 6vw;
+
+                        td {
+                            font-size: 3vw;
+                            padding: 0.5vw;
+                        }
+                    }
+                }
+
+                .kontak {
+                    ul {
+                        margin-bottom: 6vw;
+                    }
+
+                    .fa-whatsapp,
+                    .fa-instagram,
+                    .fa-telegram-plane,
+                    .fa-line,
+                    .fa-envelope {
+                        font-size: 7vw;
+                        padding: 0 1vw;
+                    }
+                }
+
+                .hobi {
+                    .hobi-wrap {
+                        margin-bottom: 6vw;
+
+                        .kotak-hobi {
+                            width: 100%;
+                            padding: 5vw;
+                        }
+                    }
+                }
+
+                .kepribadian {
+                    margin-bottom: 6vw;
+
+                    h3 {
+                        padding: 1vw 2vw;
+                        font-size: 2.5vw;
+                    }
+                }
+            }
+
+
+        }
+
+        .konten-kanan {
+            width: 100%;
+            float: none;
+            padding: 0;
+            margin-top: 7vw;
+
+            .kotak-konten-kanan {
+                h1 {
+                    font-size: 6vw;
+                }
+
+                .profil {
+                    p {
+                        font-size: 3vw;
+                    }
+                }
+
+                .sekolah {
+                    h1 {
+                        font-size: 3.5vw;
+                    }
+
+                    h2 {
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .timelin-main h2 {
+        font-size: 6vw;
+    }
+
+    .timelin-main p {
+        font-size: 4vw;
+    }
+
+    .timeline-wrapper {
+        margin-top: 5vw;
+    }
+
+    .kemampuan {
+        h3 {
+            font-size: 2.5vw;
+        }
+
+        .kotak-skill {
+            box-shadow: #292f49 2px 2px 4px;
+
+            .skill {
+                font-size: 2vw;
+            }
+        }
+    }
+
+    .proyek {
+        .proyek-wrap {
+            align-items: center;
+
+            .proyek-item {
+                width: 100%;
+
+                a {
+                    h2 {
+                        font-size: 4vw;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -719,13 +719,14 @@ header {
 .proyek {
     .proyek-wrap {
         display: flex;
-        align-items: flex-end;
+        flex-wrap: wrap;
+        align-items: flex-start;
         justify-content: center;
         width: 100%;
 
         .proyek-item {
-            width: 100%;
-            margin: 1.5rem;
+            width: 42%;
+            margin: 2%;
 
             a {
                 opacity: .7;

@@ -1,125 +1,82 @@
 @media all and (min-width: 1201px) {
-    .container {
-        max-width: none;
-        min-width: 1201px;
-        padding: 0 5vw;
-    }
-}
-
+  .container {
+    max-width: none;
+    min-width: 1201px;
+    padding: 0 5vw; } }
 @media all and (max-width: 670px) {
-    .kotak-header a {
-        border-radius: 5px;
-    }
+  header .kotak-header a {
+    border-radius: 5px;
+    padding: 2vw 1vw; }
+  header .kotak-header li {
+    margin-left: 1vw;
+    font-size: 2.5vw;
+    padding: 1vw 1.4vw;
+    margin: 1vw 0; }
 
-    .kotak-header li {
-        margin-left: 1vw;
-        font-size: 2.5vw;
-        padding: 1vw 1.4vw;
-    }
-
-    .konten-kiri {
-        width: 100%;
-        float: none;
-    }
-
-    .konten-kiri h1 {
-        font-size: 6vw;
-    }
-
-    .biodata table {
-        margin-bottom: 6vw;
-    }
-
-    .biodata td {
+  .konten .konten-kiri {
+    width: 100%;
+    float: none; }
+    .konten .konten-kiri h1 {
+      font-size: 6vw; }
+    .konten .konten-kiri .kotak-konten-kiri .biodata table {
+      margin-bottom: 6vw; }
+      .konten .konten-kiri .kotak-konten-kiri .biodata table td {
         font-size: 3vw;
-        padding: .5vw;
-    }
-
-    .fa-whatsapp,
-    .fa-instagram,
-    .fa-telegram-plane,
-    .fa-line,
-    .fa-envelope {
-        font-size: 4vw;
-    }
-
-    .kontak ul {
-        margin-bottom: 6vw;
-    }
-
-    .hobi-wrap {
-        margin-bottom: 6vw;
-    }
-
-    .kepribadian {
-        margin-bottom: 6vw;
-    }
-
-    .kotak-konten-kanan h1 {
-        font-size: 6vw;
-    }
-
-    .konten-kanan {
+        padding: 0.5vw; }
+    .konten .konten-kiri .kotak-konten-kiri .kontak ul {
+      margin-bottom: 6vw; }
+    .konten .konten-kiri .kotak-konten-kiri .kontak .fa-whatsapp,
+    .konten .konten-kiri .kotak-konten-kiri .kontak .fa-instagram,
+    .konten .konten-kiri .kotak-konten-kiri .kontak .fa-telegram-plane,
+    .konten .konten-kiri .kotak-konten-kiri .kontak .fa-line,
+    .konten .konten-kiri .kotak-konten-kiri .kontak .fa-envelope {
+      font-size: 7vw;
+      padding: 0 1vw; }
+    .konten .konten-kiri .kotak-konten-kiri .hobi .hobi-wrap {
+      margin-bottom: 6vw; }
+      .konten .konten-kiri .kotak-konten-kiri .hobi .hobi-wrap .kotak-hobi {
         width: 100%;
-        float: none;
-        padding: 0;
-        margin-top: 7vw;
-    }
-
-    .profil p {
-        font-size: 3vw;
-    }
-
-    .sekolah h1 {
-        font-size: 3.5vw;
-    }
-
-    .sekolah h2 {
-        font-size: 2vw;
-    }
-
-    .timelin-main h2 {
-        font-size: 6vw;
-    }
-
-    .timelin-main p {
-        font-size: 4vw;
-    }
-
-    .timeline-wrapper {
-        margin-top: 5vw;
-    }
-
-    .kotak-hobi {
-        width: 100%;
-        padding: 5vw;
-    }
-
-    .kotak-skill {
-        box-shadow: #292F49 2px 2px 4px;
-
-    }
-
-    .skill {
-        font-size: 2vw;
-    }
-
-    .kemampuan h3 {
-        font-size: 2.5vw;
-    }
-
-    .kepribadian h3 {
+        padding: 5vw; }
+    .konten .konten-kiri .kotak-konten-kiri .kepribadian {
+      margin-bottom: 6vw; }
+      .konten .konten-kiri .kotak-konten-kiri .kepribadian h3 {
         padding: 1vw 2vw;
-        font-size: 2.5vw;
-    }
+        font-size: 2.5vw; }
+  .konten .konten-kanan {
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin-top: 7vw; }
+    .konten .konten-kanan .kotak-konten-kanan h1 {
+      font-size: 6vw; }
+    .konten .konten-kanan .kotak-konten-kanan .profil p {
+      font-size: 3vw; }
+    .konten .konten-kanan .kotak-konten-kanan .sekolah h1 {
+      font-size: 3.5vw; }
+    .konten .konten-kanan .kotak-konten-kanan .sekolah h2 {
+      font-size: 2vw; }
 
-    .proyek h2 {
-        font-size: 4vw;
-    }
+  .timelin-main h2 {
+    font-size: 6vw; }
 
-    .proyek-wrap {
-        flex-direction: column;
-        align-items: center;
+  .timelin-main p {
+    font-size: 4vw; }
 
-    }
-}
+  .timeline-wrapper {
+    margin-top: 5vw; }
+
+  .kemampuan h3 {
+    font-size: 2.5vw; }
+  .kemampuan .kotak-skill {
+    box-shadow: #292f49 2px 2px 4px; }
+    .kemampuan .kotak-skill .skill {
+      font-size: 2vw; }
+
+  .proyek .proyek-wrap {
+    align-items: center; }
+    .proyek .proyek-wrap .proyek-item {
+      width: 100%; }
+      .proyek .proyek-wrap .proyek-item a h2 {
+        font-size: 4vw; } }
+
+/*# sourceMappingURL=responsive.css.map */
